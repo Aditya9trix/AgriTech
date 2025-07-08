@@ -1,0 +1,20 @@
+base_url: "https://archive-api.open-meteo.com/v1/archive"
+# latitude: 20.5943
+# longitude: 74.3715
+start_date: "2023-01-01"
+end_date: "2025-06-26"
+timezone: "IST"
+
+
+hourly:
+  - temperature_2m
+  - relative_humidity_2m
+  - precipitation
+  - windspeed_10m
+  - winddirection_10m
+  - direct_radiation
+  - soil_moisture_28_to_100cm
+  - soil_temperature_28_to_100cm
+  - surface_pressure
+  - wind_gusts_10m
+  - direct_radiation_instant
